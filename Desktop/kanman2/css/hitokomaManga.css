@@ -1,0 +1,76 @@
+body{
+  margin: 0 ;
+  padding: 0;
+  width: 1000px;
+}
+header{
+  display:flex;
+}
+a:visited.back{
+  color : #ccc;
+}
+.back{
+  padding-top:25px;
+}
+.hitokomaFoundation {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
+.hitokomaFcharacters{
+  width:690px;
+  height: 370px;
+  padding: auto;
+  overflow: hidden;
+  position: relative;
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-left: 2px solid ;
+  border-right: 2px solid ;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.fk-size{
+  width: 300px;
+  height: auto;
+}
+.fk-size img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.child{
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+.hitokomaMenuField{
+  display: flex;
+}
+.hitokomaMenuField > div + div{
+  margin-left: 37px;
+}
+.hitokomaMenuField > div{
+  margin: 0;
+  padding: 0;
+}
+.dialogueMenu{
+  padding-top: 15px;
+}
+.hitokomaDialogue{
+  vertical-align: top;
+}
+p{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-orientation: upright;
+  font-size: 100%;
+}
+.drag-and-drop {
+  cursor: move;
+  position: absolute;
+  z-index: 1000;
+}
+
+.drag {
+  z-index: 1001;
+}
