@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+
+  <title>かんまん＜かんたん漫画作成＞</title>
+  <link rel="stylesheet" href="../css/hitokomaManga.css">
+</head>
+<body>
+  <header>
+    <h1><a class="back" href="../index.html">KantanManga</a></h1>
+    
+  </header>
+  <main>
+    <div class="hitokomaFoundation">
+      <div class="hitokomaFcharacters">
+        <div class="drag-and-drop" id="red-box" style=" top:50px; left:20px;">
+          <img src="../img/men.png" id="charcterImage" alt="">
+        </div>
+        <div class="drag-and-drop parent" id="red-box" style=" top:0px; left:360px;">
+          <div class="fk-size">
+            <img src="../img/fk.png" id="fukidasiImageF" alt="">
+          </div>
+        </div>
+        <div class="drag-and-drop" id="red-box" style=" top:90px; left:490px;">
+          <div class="child">
+            <p id="hitokomaFontResizable"><span class="badge badge-primary"></span></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hitokomaMenuField">
+        <div>
+          <div class="menu1">
+            <p>人物のサイズ</p>
+            <button id="small">&laquo;</button>
+            <button id="initial">戻</button>
+            <button id="big">&raquo;</button>
+          </div>
+        </div>
+        <div>
+          <div class="menu2">
+            <p>吹き出しサイズ</p>
+            <button id="smallF">&laquo;</button>
+            <button id="initialF">戻</button>
+            <button id="bigF">&raquo;</button>
+          </div>
+        </div>
+        <div>
+          <form>
+            <div class="form-group dialogueMenu">
+              <label for="" class="bmd-label-floating hitokomaDialogue">テキスト</label>
+              <textarea class="form-control" id="textarea" rows="3" >ここに入力</textarea>
+            </div>
+          </form>
+        </div>
+        <div>
+          <p>テキストサイズ</p>
+          <button id="hitokomaFontSmall" type="button">小さく</button>
+          <button id="hitokomaFontLarge" type="button">大きく</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="../js/hitokomaManga.js"></script>
+</body>
+</html>
